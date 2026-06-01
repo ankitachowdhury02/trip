@@ -1,0 +1,44 @@
+body{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main{
+    display: flex;
+   width: 700px;
+}
+
+
+ .left{
+     width: 1,366px;
+    height: 656px;
+ }
+
+ .left img{
+    width: 694px;
+    height: 779px;
+
+ }
+
+ h1{
+    color: #0D542A;
+
+ }
+
+ .right{
+   width:50%;
+   text-align: center;
+    padding: 20px;
+ }
+
+ input{
+     width: 409px;
+   height: 62px;
+   border: 1px ;
+   top: 282px;
+   left: 820px;
+ }
