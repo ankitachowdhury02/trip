@@ -18,7 +18,7 @@ body{
     height: 656px;
  }
 
- .left img{
+  .left img{
     width: 694px;
     height: 779px;
 
@@ -42,3 +42,39 @@ body{
    top: 282px;
    left: 820px;
  }
+
+button{
+    width: 409px;
+    height: 58px;
+    padding: 15px;
+    border-radius: 8px;
+   background-color: #0D542A ;
+   color: white;
+   border: none;
+   cursor: pointer;
+   gap: 30px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-btn{
+   width: 409px;
+   height: 56px;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: #00EB5B33;
+   color: white;
+   border: none;
+   cursor: pointer;
+   
+}
+
+.social-btn img{
+   width: 23.17px;
+   height: 24px;
+   padding: 10px;
+}
