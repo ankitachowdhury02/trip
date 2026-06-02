@@ -1,80 +1,109 @@
-body{
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+   background-color: #f0f0f0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: auto;
 }
 
 
-.main{
-    display: flex;
+.main {
+   display: flex;
+   margin: 0 auto;
    width: 700px;
+   border: 1px solid black;
+   border-radius: 12px;
 }
 
 
- .left{
-     width: 1,366px;
-    height: 656px;
- }
+.left {
+   width: 50%;
 
-  .left img{
-    width: 694px;
-    height: 779px;
+}
 
- }
+.left img {
+   width: 100%;
+   height: auto;
+   border-radius: 15px;
+}
 
- h1{
-    color: #0D542A;
+.logo-text{
+    position: absolute;
+    width: 200px;
+    height: 76px;
+    top: 77px;
+    left: 100px;
+    opacity: 1;
 
- }
+    color:white;
+    font: size 20px;
+    font-weight:bold;
+}
 
- .right{
-   width:50%;
-   text-align: center;
-    padding: 20px;
- }
+.right {
+   width: 50%;
 
- input{
-     width: 409px;
-   height: 62px;
-   border: 1px ;
-   top: 282px;
-   left: 820px;
- }
+}
 
-button{
-    width: 409px;
-    height: 58px;
-    padding: 15px;
-    border-radius: 8px;
-   background-color: #0D542A ;
+
+h1 {
+   color: #0D542A;
+
+}
+
+.right {
+   width: 50%;
+
+
+   display: flex;
+   /* align-items: center; */
+   justify-content: center;}
+
+.right-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 20px;
+}
+
+input {
+   width: 300px;
+   height: 40px;
+   border-radius: 8px;
+   margin-bottom: 8px;
+   border-color: #0D542A;
+}
+
+button {
+   width: 300px;
+   height: 40px;
+   padding: 0 15px;
+   border-radius: 8px;
+   background-color: #0D542A;
    color: white;
-   border: none;
    cursor: pointer;
-   gap: 30px;
 }
 
-.social{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.social {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
 }
 
-.social-btn{
-   width: 409px;
-   height: 56px;
+.social-btn {
+   width: 120px;
+   height: 40px;
    padding: 10px;
    border-radius: 5px;
    background-color: #00EB5B33;
    color: white;
    border: none;
    cursor: pointer;
-   
+
 }
 
-.social-btn img{
-   width: 23.17px;
+.social-btn img {
+   width: 23px;
    height: 24px;
-   padding: 10px;
 }
