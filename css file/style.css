@@ -64,7 +64,14 @@ body {
 
 h1 {
    color: #0D542A;
-   font-style: italic;
+   
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 }
 
 .right {
@@ -143,3 +150,4 @@ button {
    height: 1px;
    background-color: #000;
 }
+
