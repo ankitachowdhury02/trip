@@ -9,6 +9,7 @@ body {
 
 .main {
    display: flex;
+   flex-wrap:wrap;
    margin: 0 auto;
    width: 700px;
    border: 1px solid black;
@@ -178,7 +179,7 @@ button {
 .text::before,.text::after {
    content: "";
    flex: 1;
-   height: 1px;
+   height: 1px; 
    background-color: #000;
 }
 
