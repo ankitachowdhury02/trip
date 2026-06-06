@@ -88,7 +88,7 @@ header{
 
 /* Main Wrapper */
 .hotel-wrapper{
-    width:95%;
+  max-width: 1200px;
     margin:auto;
     background:#f8f8f5;
     padding:20px;
@@ -400,6 +400,121 @@ header{
     margin: 0;
 }
 
+/* Main Card */
+.main-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  padding: 30px 50px;
+  max-width: 1100px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Left Side */
+.content-side {
+  flex: 1;
+}
+
+.content-side p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Rating Row */
+.rating-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* Green Badge */
+.rating-badge {
+  background: #0b5d2a;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+/* Stars */
+.menu_icon {
+  color: #ffb400;
+  font-size: 18px;
+}
+
+/* Right Side */
+.app-side {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-left: 1px solid #ddd;
+  padding-left: 40px;
+}
+
+/* App Content */
+.app-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.app-content p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Store Images */
+.app-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.app-links img {
+  width: 150px;
+  cursor: pointer;
+}
+
+/* QR Code */
+.qr-code {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .main-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .app-side {
+    border-left: none;
+    border-top: 1px solid #e0e0e0;
+    padding-left: 0;
+    padding-top: 24px;
+    margin-top: 24px;
+  }
+
+  .app-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
 
 /* General Footer Styling */
@@ -470,11 +585,15 @@ body {
 
 .footer-links {
   display: flex;
-  gap: 80px;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 .footer-column {
+  flex: 1 0 160px;
   min-width: 160px;
 }
 
