@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background-color:#f0f0f0;
+}
+
+/* NAVBAR  */ 
+
+header{
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-items{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    color:#333;
+    font-size:16px;
+    margin-right:50px;
+}
+
+.nav-link{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+.logo-img{
+    width:20px;
+    height:auto;
+}
+
+.logo-text img{
+    width:169px;
+    height:53px;
+}
+
+.login-btn{
+    background-color:#0D542A;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.write {
+    display: flex;
+    flex-direction: column; /* Stacks the content vertically line-by-line */
+    padding: 30px; /* Internal spacing */
+    gap: 30px; /* Space between the two blocks */
+    max-width: 1200px; /* Controls the maximum width of the box */
+    margin: 20px auto; /* Centers the box on your screen */
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    
+}
+
+.column h2 {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #000000;
+}
+
+.column p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6; /* Sets proper line spacing for the paragraph */
+    color: #333333;
+    margin: 0;
+}
