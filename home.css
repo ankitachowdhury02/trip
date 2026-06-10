@@ -99,11 +99,12 @@ header{
 .location-section{
     display:flex;
     align-items:center;
-    gap:0;
+    gap:10px;
     overflow-x:auto;
     background:#fff;
     border-radius:12px;
     margin-bottom:30px;
+    padding:10px;
 }
 
 .location-section::-webkit-scrollbar{
@@ -111,8 +112,8 @@ header{
 }
 
 .location-card{
-    min-width:110px;
-    height:90px;
+    min-width:80px;
+    max-width:100px;
     border-right:1px solid #e5e5e5;
     display:flex;
     flex-direction:column;
@@ -121,6 +122,8 @@ header{
     background:#fff;
     cursor:pointer;
     transition:.3s;
+    padding:12px 10px;
+    border-radius: 10px;
 }
 
 .location-card:last-child{
@@ -129,12 +132,15 @@ header{
 
 .location-card img{
     width:35px;
+    height:auto;
     margin-bottom:8px;
 }
 
 .location-card p{
     font-size:14px;
     color:#333;
+    text-align:center;
+    white-space:nowrap;
 }
 
 .location-card.active{
@@ -663,3 +669,10 @@ body {
 .social-icons a:hover {
   transform: translateY(-2px);
 }
+
+
+.top{
+  display: flex;
+}
+
+
