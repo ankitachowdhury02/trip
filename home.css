@@ -99,12 +99,12 @@ header{
 .location-section{
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:14px;
+    background:#f7f7f2;
+    padding:10px 15px;
+    border-radius:14px;
     overflow-x:auto;
-    background:#fff;
-    border-radius:12px;
-    margin-bottom:30px;
-    padding:10px;
+    width:100%;
 }
 
 .location-section::-webkit-scrollbar{
@@ -112,18 +112,20 @@ header{
 }
 
 .location-card{
-    min-width:80px;
-    max-width:100px;
-    border-right:1px solid #e5e5e5;
+       min-width:85px;
+    height:90px;
+    background:#ffffff;
+    border:1px solid #e3e3e3;
+    border-radius:12px;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background:#fff;
+    gap:8px;
     cursor:pointer;
-    transition:.3s;
-    padding:12px 10px;
-    border-radius: 10px;
+    transition:0.3s;
+    flex-shrink:0;
+    padding:10px;
 }
 
 .location-card:last-child{
@@ -131,16 +133,16 @@ header{
 }
 
 .location-card img{
-    width:35px;
-    height:auto;
-    margin-bottom:8px;
+     width:34px;
+    height:34px;
+    object-fit:contain;
 }
 
 .location-card p{
-    font-size:14px;
-    color:#333;
-    text-align:center;
-    white-space:nowrap;
+   font-size:13px;
+    font-weight:500;
+    color:#444;
+    margin:0;
 }
 
 .location-card.active{
@@ -149,7 +151,8 @@ header{
 }
 
 .location-card:hover{
-    background:#f7f7f7;
+       transform:translateY(-2px);
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 
 /* Cards Row */
@@ -673,6 +676,7 @@ body {
 
 .top{
   display: flex;
+  
 }
 
 
